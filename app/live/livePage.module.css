@@ -1,0 +1,72 @@
+.container {
+  height: 100vh;
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.title {
+  position: absolute;
+  right: 78%;
+  top: 5%;
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-align: left; 
+}
+
+.content {
+  position: absolute;
+  right: 42%;
+  top: 18%;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px; 
+}
+
+.showWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 10px 0; 
+  border-bottom: 1px solid whitesmoke;
+  width: 100%;
+}
+
+
+.show {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.show li {
+  margin-bottom: 10px;
+}
+
+.getTicketsButton {
+  position: absolute;
+  left: 60%;
+  background-color: whitesmoke;
+  color: black;
+  border: 1px solid black; 
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  position: relative;
+}
+
+.getTicketsButton:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+  
